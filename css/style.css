@@ -1,0 +1,40 @@
+.title {
+    color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    align-items: end;
+    font-size: 40px;
+    color:aliceblue;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: aliceblue;
+    flex-direction: row;
+}
+
+.jumbotron {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.jumbotron img {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+}
+
+.jumbotron h2, h4 {
+    display: flex;
+    flex-wrap: wrap;
+}
