@@ -1,4 +1,5 @@
 .title {
+    display: flex;
     color: aliceblue;
 }
 
@@ -15,11 +16,17 @@
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
+    
 }
 
-.menu li a {
+.menu a {
     color: aliceblue;
+}
+
+.menu li {
+    color: white;
     flex-direction: row;
+    margin-right: 25px;
 }
 
 .jumbotron {
@@ -38,3 +45,98 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.about-me-container {
+    background-color: gainsboro;
+}
+
+.about-me-container h2, p {
+    color: white;
+}
+
+.about-me-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.my-projects-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    background-color: cornsilk;
+    border-radius: auto;
+}
+
+.my-projects-container p {
+    color: black;
+    border-radius: 50%;
+}
+
+.project1 {
+    font-size: 30px;
+}
+
+.project1 h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    background-color: white;
+}
+
+.portofolioChallenge {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.portofolioChallenge img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    border-radius: 50%;
+    justify-content: center;
+    margin-right: 10px;
+    margin: 30px;
+}
+
+#contact-me {
+    display: flex;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.ContactMEsymbols {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.Contactdetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.flexItem {
+    background-color: lightyellow;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    background-image: url(../images/testimonials-1.jpg);
+  }
+  .flexContainer {
+    display: flex;
+    height: 400px;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+  }
