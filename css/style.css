@@ -103,8 +103,19 @@ h1 {
 .linkedin {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .linkedin a {
-    align-items: center;
+    margin-left: 10px;
 }
+
+.btn {
+    width: auto;
+    height: 40px;
+    font-size: 30px;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 10px #888;
+  }
