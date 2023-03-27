@@ -1,3 +1,4 @@
+/* default styles for all screens */
 * {
     box-sizing: content-box;
 }
@@ -142,3 +143,112 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+    .title {
+      font-size: 30px;
+    }
+    
+    .navbar {
+      font-size: 25px;
+      flex-direction: column;
+    }
+    
+    .menu li {
+      margin-right: 0;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    
+    .jumbotron {
+      grid-template-columns: 1fr;
+    }
+    
+    .heroText {
+      margin-left: 0;
+      text-align: center;
+    }
+    
+    .jumbotron p {
+      margin-top: 50px;
+    }
+    
+    .divider {display: flex;
+        justify-content: center;
+        font-size: 40px;
+        background-color: #343a40;
+        color: white;
+        margin-bottom: 25px;
+      }
+    
+      .imagesCard {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+      }
+    
+      .card {
+        display: inline-flex;
+        justify-content: space-around;
+      }
+    
+      .table {
+        font-size: 30px;
+      }
+    
+    .contactInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    
+    .linkedin {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .linkedin a {
+        margin-left: 10px;
+    }
+    
+    .email {
+        align-items: center;
+    }
+    
+    .button {
+        width: auto;
+        height: 40px;
+        font-size: 30px;
+    }
+    
+    .button:hover {
+        background-color: #343a40;
+      color: #fff;
+    }
+    
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 40px;
+        color: black;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
