@@ -79,6 +79,14 @@ h1 {
 
   .card {
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-around;
   }
   
+  .skills {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background-color: #343a40;
+    color: white;
+    margin-bottom: 25px;
+  }
