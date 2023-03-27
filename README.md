@@ -1,30 +1,36 @@
-My personal portfolio challenge week 2
+**My personal portfolio with Bootstrap challenge week 3**
 
 This is the challenge of week 3 of the BootCamp from University of Birmingham
 
-User Story
+**User Story**
 
 In this challenge I had to develop a portfolio through the use of Bootstrap. I had to include personal information and details of the projects I have currently on my GitHub and the ones I will make in the future which will be a great opportunity to showcase to potential employers. also showcase the skills that I will learn througout the bootcamp and a little bio about myself and how to contact me.
 
-Technology
+**Technology**
 
 This project was developed using only HTML and CSS files - with the addition of the README file. Also, Bootstrap and FontAwesome.
 
-Acceptance Criteria
+**Acceptance Criteria**
 
-This challenge was an opportunity to put in action what we have been discussed in the past 2 weeks. Moreover, I found it quite difficul to develop a portfolio which reflects 100% what the challenge was requesting. So, I have opted to work with something simpler and throughout the weeks and alongside the new knowledge that I will build and empower I will keep amending and carry on working on this portfolio to make sure by the end of the bootcamp it will be looking like a professional front-end developer.
+This challenge was an opportunity to put in action what we have been discussed in the past 3 weeks. Moreover, this challenge helped me understand how to apply bootstrap and how it works. I still need to empower the concept but I am happy with the result. I followed the requirements which was requesting the following element within the porfolio:
 
-I have worked with a basic white background, adding a nav bar with my name on the left side and some buttons (which in the future will be linking to the actual sections of the portfolio) - The body of the page is made by 4 sections:
+- Navbar
+- Hero section
+- Work section
+- Skills section
+- Contact section
+- Bio section 
+- Footer section
 
-Hero image
-About me
-Portfolio
-Contact
-The hero image section is a very simple image which divide the nav bar from the content with a welcome message in the center. The about me section is giving a short paragraph about myself. The portfolio section should represent the work I will be creating in the upcoming weeks. Also, I have added a very simple CSS hover style making these images go lighter when the user go over them. The contact section, includes my contact details in a row list.
+I have worked with a basic white background with black elements, adding a nav bar with my name on the left side and some buttons which are linked to the various sections of the page.
 
-Then a simple footer at the bottom of the page.
+For the hero section I used one my picture and rounded it up, with a short paragraph about what the webpage is about. Then you can find the work section where I showcase the projects I have worked/working/will work on while I am enrolled in the bootcamp. Moroever, for this section I have used the bootstrap cards, this helped me to structure the work - used canva to create cool images with the same size so it was simmetrical and then hyperlinked each card to the deployed repositories.
 
-Review
+The skills section is a list of the skills which I will learn throughout the bootcamp. To develop this section I used bootstrap which made it very straighforward to list the topics covered during the course.
+
+At the end there is row of contact details like LinkedIn, GitHub, Email and phone number. To make it more appealing I explored the FontAwesome tool which allowed me to insert the icons. Then included buttons with a hover effect how it was requested. Followed by a short biography about myself and the footer.
+
+**Review**
 
 URL: https://antoninogambino.github.io/my-portfolio/ GitHib deployed repository: https://github.com/antoninogambino/my-portfolio.git
 
