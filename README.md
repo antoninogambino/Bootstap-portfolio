@@ -34,6 +34,6 @@ At the end there is row of contact details like LinkedIn, GitHub, Email and phon
 
 URL: https://antoninogambino.github.io/my-portfolio/ GitHib deployed repository: https://github.com/antoninogambino/my-portfolio.git
 
-Deployed website screenshot
+**Deployed website screenshot**
 
 ![image](https://user-images.githubusercontent.com/112243266/227998533-b93b8d42-95c1-459a-ae64-1f444b6f7c44.png)
