@@ -32,7 +32,9 @@ At the end there is row of contact details like LinkedIn, GitHub, Email and phon
 
 **Review**
 
-URL: https://antoninogambino.github.io/my-portfolio/ GitHib deployed repository: https://github.com/antoninogambino/my-portfolio.git
+URL: https://antoninogambino.github.io/my-portfolio/ 
+GitHub deployed repository: https://github.com/antoninogambino/my-portfolio.git
+URL previous portfolio without bootstrap: https://antoninogambino.github.io/my-portfolio/
 
 **Deployed website screenshot**
 
